@@ -2,31 +2,41 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Francisca Vasconcelos
+    - name: Currrent Position
+      value: PhD Student and NSF Graduate Research Fellow at UC Berkeley
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Computer Science
+      institution: University of California, Berkeley
+      year: 2022-Present
       description:
-        - Description 1.
+        - Supported by an NSF Graduate Research Fellowship
         - Description 2.
         - title: Description 3.
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: MSt in Philosophy of Physics
+      institution: University of Oxford
+      year: 2021-2022
       description:
-        - Description 1.
+        - Supported by a Rhodes Scholarship
         - Description 2.
+    - title: MSc in Statistical Sciences
+      institution: University of Oxford
+      year: 2020-2021
+      description:
+        - Supported by a Rhodes Scholarship
+        - Masters Thesis - 
+    - title: BS in Electrical Engineering & Computer Science and Physics
+      institution: Massachusetts Institute of Technology
+      year: 2016-2020
+      description:
+        - Supported by a Rhodes Scholarship
+        - Masters Thesis - 
 
 - title: Experience
   type: time_table

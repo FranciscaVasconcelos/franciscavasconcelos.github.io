@@ -2,24 +2,31 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: >
+   CS PhD @ UC Berkeley <a href='http://theory.cs.berkeley.edu/'>Theory Group</a> and <a href='https://bair.berkeley.edu/index.html'>BAIR Lab</a>. 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: <p>francisca @ berkeley.edu</p> 
+  #  <p>123 your address street</p>
+  #  <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD student and <a href="https://www.nsfgrfp.org/">NSF Graduate Research Fellow</a> in the UC Berkeley Department of Electrical Engineering and Computer Science. I am co-advised by Profs <a href="http://people.eecs.berkeley.edu/~jordan/">Michael Jordan</a> and <a href="http://people.eecs.berkeley.edu/~vazirani/">Umesh Vazirani</a>.
+My research interests lie at the intersection of quantum computation and machine learning theory.
+
+In 2020, I received a BS in EECS and Physics from MIT, where I was fortunate to do substantial undergraduate research under Prof. <a href="https://equs.mit.edu/william-d-oliver/">William Oliver</a> in the <a href="https://equs.mit.edu/">MIT Engineering Quantum Systems</a> group. As an undergraduate, I also interned under Dr. <a href="https://marcusps.github.io/"> Marcus da Silva</a> at Rigetti Computing and Microsoft Research Quantum. Via the <a href="https://www.rhodeshouse.ox.ac.uk/scholarships/the-rhodes-scholarship/">Rhodes Scholarship</a>, I received two masters from the University of Oxford: an MSc in Statistical Sciences (masters thesis advised by Prof. <a href="https://www.stats.ox.ac.uk/~teh/">Yee Whye Teh</a>) and MSt in Philosophy of Physics.
+
+I am also the Founding Academic Director of the <a href="https://www.qubitbyqubit.org/">Qubit x Qubit (QxQ)</a> initiative of <a href="https://the-cs.org/">The Coding School (TCS)</a> non-profit. Since 2019, we have trained 20,000+ diverse K-12 students, undergraduates, and members of the workforce worldwide in the fundamentals of quantum computing and QISE!
+
+<!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
