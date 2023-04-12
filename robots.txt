@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://franciscavasconcelos.github.io/home//sitemap.xml
+Sitemap: https://franciscavasconcelos.github.io/home/sitemap.xml
