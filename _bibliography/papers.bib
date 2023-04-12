@@ -1,127 +1,121 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
+@article{vasconcelos2023uncertainr,
+  abbr={TMLR},
+  title={Uncerta{INR}: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed Tomography},
+  author={Vasconcelos, Francisca and He, Bobby and Singh, Nalini and Teh, Yee Whye},
+  journal={Transactions on Machine Learning Research (TMLR)},
+  issn={2835-8856},
+  year={2023},
+  url={https://openreview.net/forum?id=jdGMBgYvfX},
+  abstract={Implicit neural representations (INRs) have achieved impressive results for scene reconstruction and computer graphics, where their performance has primarily been assessed on reconstruction accuracy. As INRs make their way into other domains, where model predictions inform high-stakes decision-making, uncertainty quantification of INR inference is becoming critical. To that end, we study a Bayesian reformulation of INRs, UncertaINR, in the context of computed tomography, and evaluate several Bayesian deep learning implementations in terms of accuracy and calibration.  We find that they achieve well-calibrated uncertainty, while retaining accuracy competitive with other classical, INR-based, and CNN-based reconstruction techniques. Contrary to common intuition in the Bayesian deep learning literature, we find that INRs obtain the best calibration with computationally efficient Monte Carlo dropout, outperforming Hamiltonian Monte Carlo and deep ensembles. Moreover, in contrast to the best-performing prior approaches, UncertaINR does not require a large training dataset, but only a handful of validation images.},
+  volume={April},
+  year={2023},
+  code={https://github.com/bobby-he/uncertainr},
+  url={https://openreview.net/forum?id=jdGMBgYvfX},
+  html={https://openreview.net/forum?id=jdGMBgYvfX},
+  talk={https://youtu.be/cD7Wx4F_EjQ},
+  slides={https://docs.google.com/presentation/d/1p8BiarRbX4bCV1jdgrylJrAEPtLS27StNtSvQcf4C0s/edit?usp=sharing},
+  arxiv={2202.10847},
+  selected={true},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,},
-  preview={brownian-motion.gif}
+  preview={uncertainr.png},
+  dcat=journal
 }
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}
-
 
 @article{vepsalainen2020impact,
+  abbr={Nature},
   title={Impact of ionizing radiation on superconducting qubit coherence},
   author={Veps{\"a}l{\"a}inen, Antti P and Karamlou, Amir H and Orrell, John L and Dogra, Akshunna S and Loer, Ben and Vasconcelos, Francisca and Kim, David K and Melville, Alexander J and Niedzielski, Bethany M and Yoder, Jonilyn L and Orlando, Terry P and  Gustavsson, Simon and   Oliver, William D},
+  abstract={Technologies that rely on quantum bits (qubits) require long coherence times and high-fidelity operations. Superconducting qubits are one of the leading platforms for achieving these objectives. However, the coherence of superconducting qubits is affected by the breaking of Cooper pairs of electrons. The experimentally observed density of the broken Cooper pairs, referred to as quasiparticles, is orders of magnitude higher than the value predicted at equilibrium by the Bardeen-Cooper-Schrieffer theory of superconductivity. Previous work has shown that infrared photons considerably increase the quasiparticle density, yet even in the best-isolated systems, it remains much higher than expected, suggesting that another generation mechanism exists. Here we provide evidence that ionizing radiation from environmental radioactive materials and cosmic rays contributes to this observed difference. The effect of ionizing radiation leads to an elevated quasiparticle density, which we predict would ultimately limit the coherence times of superconducting qubits of the type measured here to milliseconds. We further demonstrate that radiation shielding reduces the flux of ionizing radiation and thereby increases the energy-relaxation time. Albeit a small effect for today's qubits, reducing or mitigating the impact of ionizing radiation will be critical for realizing fault-tolerant superconducting quantum computers.},
   journal={Nature},
   volume={584},
   number={7822},
   pages={551--556},
   year={2020},
-  publisher={Nature Publishing Group UK London}
+  doi={10.1038/s41586-020-2619-8},
+  publisher={Nature Publishing Group UK London},
+  url={https://doi.org/10.1038/s41586-020-2619-8},
+  html={https://www.nature.com/articles/s41586-020-2619-8},
+  arxiv={2001.09190},
+  altmetric={91951655},
+  selected={true},
+  bibtex_show={true},
+  preview={cosmic.jpg},
+  mitnews={https://news.mit.edu/2020/cosmic-rays-limit-quantum-computing-0826},
+  dcat=journal
 }
 
 @article{kannan2020generating,
+  abbr={Sci. Adv.},
   title={Generating spatially entangled itinerant photons with waveguide quantum electrodynamics},
   author={Kannan, Bharath and Campbell, Daniel L and  Vasconcelos, Francisca and  Winik, Roni and  Kim, David K and  Kjaergaard, Morten and  Krantz, Philip and  Melville, Alexander and  Niedzielski, Bethany M and  Yoder, Jonilyn L and   Orlando, Terry P and  Gustavsson, Simon and   Oliver, William D},
+  abstract={Realizing a fully connected network of quantum processors requires the ability to distribute quantum entanglement. For distant processing nodes, this can be achieved by generating, routing, and capturing spatially entangled itinerant photons. In this work, we demonstrate the deterministic generation of such photons using superconducting transmon qubits that are directly coupled to a waveguide. In particular, we generate two-photon N00N states and show that the state and spatial entanglement of the emitted photons are tunable via the qubit frequencies. Using quadrature amplitude detection, we reconstruct the moments and correlations of the photonic modes and demonstrate state preparation fidelities of 84%. Our results provide a path toward realizing quantum communication and teleportation protocols using itinerant photons generated by quantum interference within a waveguide quantum electrodynamics architecture.},
   journal={Science advances},
   volume={6},
   number={41},
   pages={eabb8780},
   year={2020},
-  publisher={American Association for the Advancement of Science}
+  arxiv={2003.07300},
+  doi={10.1126/sciadv.abb8780},
+  url={https://www.science.org/doi/10.1126/sciadv.abb8780},
+  html={https://www.science.org/doi/10.1126/sciadv.abb8780},
+  altmetric={74634709},
+  publisher={American Association for the Advancement of Science},
+  bibtex_show={true},
+  selected={true},
+  preview={gen_photon.jpg},
+  mitnews={https://news.mit.edu/2020/generating-photons-communication-quantum-computing-system-1007},
+  dcat=journal
 }
 
-@article{kannan2020generating,
+@article{vasconcelos2019qmit,
+  abbr={MURJ},
   title={Quantum Computing @ MIT: The Past, Present, and Future of the Second Revolution in Computing},
   author={Vasconcelos, Francisca},
+  abstract={This article provides an overview of the history, theoretical basis, and different implementations of quantum computers. In Fall 2018, four MIT faculty -- Isaac Chuang, Dirk Englund, Aram Harrow, and William Oliver -- at the forefront of quantum computation and information research were interviewed. They provided personal perspectives on the development of the field, as well as insight to its near-term trajectory. There has been a lot of recent media hype surrounding quantum computation, so in this article we present an academic view of the matter, specifically highlighting progress being made at MIT.},
   journal={MIT Undergraduate Research Journal},
   volume={38},
   number={Fall 2019},
   pages={52},
-  year={2019}
+  year={2019},
+  url={https://doi.org/10.48550/arXiv.2002.05559},
+  pdf={https://murj-assets.s3.amazonaws.com/assets/issues/MURJ38_full.pdf},
+  arxiv={https://arxiv.org/abs/2002.05559},
+  preview={murj_cover.png},
+  bibtex_show={true},
+  doi={10.48550/arXiv.2002.05559},
+  dcat=article
 }
 
 
 @inproceedings{vasconcelos2016person,
-  title={Person-following UAVs},
+  title={Person-Following UAVs},
   author={Vasconcelos, Francisca and Vasconcelos, Nuno},
+  abstract={We consider the design of vision-based control algorithms for unmanned aerial vehicles (UAVs), so as to enable a UAV to autonomously follow a person. A new vision-based control architecture is proposed with the goals of 1) robustly following the user and 2) implementing following behaviors programmed by manipulation of visual patterns. This is achieved within a detection/tracking paradigm, where the target is a programmable badge worn by the user. This badge contains a visual pattern with two components. The first is fixed and used to locate the user. The second is variable and implements a code used to program the UAV behavior. A biologically inspired tracking/recognition architecture, combining bottom-up and top-down saliency mechanisms, a novel image similarity measure, and an affine validation procedure, is proposed to detect the badge in the scene. The badge location is used by a control algorithm to adjust the UAV flight parameters so as to maintain the user in the center of the field of view. The detected badge is further analyzed to extract the visual code that commands the UAV behavior This is used to control the height and distance of the UAV relative to the user.},
   booktitle={2016 IEEE Winter Conference on Applications of Computer Vision (WACV)},
   pages={1--9},
   year={2016},
-  organization={IEEE}
+  organization={IEEE},
+  preview={drone.png},
+  doi={10.1109/WACV.2016.7477660},
+  html={https://ieeexplore.ieee.org/abstract/document/7477660},
+  url={https://ieeexplore.ieee.org/abstract/document/7477660},
+  pdf={http://www.svcl.ucsd.edu/projects/dronefollow/2016IEEEWACVPersonFollowingUAVs.pdf},
+  bibtex_show={true},
+  dcat=conference
+}
+
+@mastersthesis{vasconcelos2021thesis,
+  author  = {Vasconcelos, Francisca},
+  title   = {Uncertainty in Implicit Neural Representations for Medical Imaging},
+  school  = {University of Oxford},
+  year    = {2021},
+  month   = {September},
+  bibtex_show={true},
+  preview = {oxford_stats.png},
+  pdf={FranciscaVasconcelosMScStatistics.pdf},
+  note ={Submitted in completion of an MSc in Statistical Sciences.},
+  dcat=thesis
 }

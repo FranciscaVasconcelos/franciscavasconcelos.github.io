@@ -15,13 +15,13 @@ profile:
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 I am a PhD student and <a href="https://www.nsfgrfp.org/">NSF Graduate Research Fellow</a> in the UC Berkeley Department of Electrical Engineering and Computer Science. I am co-advised by Profs <a href="http://people.eecs.berkeley.edu/~jordan/">Michael Jordan</a> and <a href="http://people.eecs.berkeley.edu/~vazirani/">Umesh Vazirani</a>.
 My research interests lie at the intersection of quantum computation and machine learning theory.
 
-In 2020, I received a BS in EECS and Physics from MIT, where I was fortunate to do substantial undergraduate research under Prof. <a href="https://equs.mit.edu/william-d-oliver/">William Oliver</a> in the <a href="https://equs.mit.edu/">MIT Engineering Quantum Systems</a> group. As an undergraduate, I also interned under Dr. <a href="https://marcusps.github.io/"> Marcus da Silva</a> at Rigetti Computing and Microsoft Research Quantum. Via the <a href="https://www.rhodeshouse.ox.ac.uk/scholarships/the-rhodes-scholarship/">Rhodes Scholarship</a>, I received two masters from the University of Oxford: an MSc in Statistical Sciences (masters thesis advised by Prof. <a href="https://www.stats.ox.ac.uk/~teh/">Yee Whye Teh</a>) and MSt in Philosophy of Physics.
+In 2020, I received a BS in EECS and Physics from MIT, where I was fortunate to do substantial undergraduate research advised by Prof. <a href="https://equs.mit.edu/william-d-oliver/">William Oliver</a> in the <a href="https://equs.mit.edu/">MIT Engineering Quantum Systems</a> group. As an undergraduate, I also interned under Dr. <a href="https://marcusps.github.io/"> Marcus da Silva</a> at Rigetti Computing and Microsoft Research Quantum. Supported by a <a href="https://www.rhodeshouse.ox.ac.uk/scholarships/the-rhodes-scholarship/">Rhodes Scholarship</a>, I received two masters from the University of Oxford: an MSc in Statistical Sciences and MSt in Philosophy of Physics. Following from the MSc, I performed statistical ML research in the <a href="https://csml.stats.ox.ac.uk/">OxCSML</a> group, advised by Prof. <a href="https://www.stats.ox.ac.uk/~teh/">Yee Whye Teh</a>.
 
 I am also the Founding Academic Director of the <a href="https://www.qubitbyqubit.org/">Qubit x Qubit (QxQ)</a> initiative of <a href="https://the-cs.org/">The Coding School (TCS)</a> non-profit. Since 2019, we have trained 20,000+ diverse K-12 students, undergraduates, and members of the workforce worldwide in the fundamentals of quantum computing and QISE!
 
