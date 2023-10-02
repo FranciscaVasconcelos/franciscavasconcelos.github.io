@@ -1,8 +1,8 @@
 ---
 layout: cv
-permalink: /cv/
+permalink: /assets/pdf/francisca_cv.pdf #/cv/
 title: cv
-nav: false
+nav: true
 nav_order: 3
-cv_pdf: example_pdf.pdf
+cv_pdf: /assets/pdf/francisca_cv.pdf
 ---
