@@ -25,6 +25,7 @@ My research interests lie at the intersection of quantum computation and machine
 
 <p>I am also the Founding Academic Director of the <a href="https://www.qubitbyqubit.org/" rel="external nofollow noopener" target="_blank">Qubit x Qubit (QxQ)</a> initiative of <a href="https://the-cs.org/" rel="external nofollow noopener" target="_blank">The Coding School (TCS)</a> non-profit. Since 2019, we have taught 20,000+ diverse K-12 students, undergraduates, and members of the workforce worldwide about the fundamentals of quantum computing and QISE.</p>
 
+
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.

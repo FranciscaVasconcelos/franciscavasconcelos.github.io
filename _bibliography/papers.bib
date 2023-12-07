@@ -1,6 +1,34 @@
 ---
 ---
 
+@article{vasconcelos2023qzsg,
+  title={A Quadratic Speedup in Finding Nash Equilibria of Quantum Zero-Sum Games},
+  author={Vasconcelos*, Francisca and Vlatakis-Gkaragkounis*, Emmanouil-Vasileios and Mertikopoulos, Panayotis and Piliouras, Giorgios and Jordan, Michael I.},
+  abstract={Recent developments in domains such as non-local games, quantum interactive proofs, and quantum generative adversarial networks have renewed interest in quantum game theory and, specifically, quantum zero-sum games. Central to classical game theory is the efficient algorithmic computation of Nash equilibria, which represent optimal strategies for both players. In 2008, Jain and Watrous proposed the first classical algorithm for computing equilibria in quantum zero-sum games using the Matrix Multiplicative Weight Updates (MMWU) method to achieve a convergence rate of $O(d/\epsilon<sup>2</sup>)$ iterations to $\epsilon$-Nash equilibria in the $4<sup>d</sup>$-dimensional spectraplex. In this work, we propose a hierarchy of quantum optimization algorithms that generalize MMWU via an extra-gradient mechanism. Notably, within this proposed hierarchy, we introduce the Optimistic Matrix Multiplicative Weights Update (OMMWU) algorithm and establish its average-iterate convergence complexity as $O(d/\epsilon)$ iterations to $\epsilon$-Nash equilibria. This quadratic speed-up relative to Jain and Watrous' original algorithm sets a new benchmark for computing $\epsilon$-Nash equilibria in quantum zero-sum games.},
+  arxiv={2311.10859},
+  selected={true},
+  bibtex_show={true},
+  preview={qzsg.png},
+  year={2023},
+  note={&#11088; Presented as a long talk at <a href="https://qtml-2023.web.cern.ch/">QTML 2023 (CERN)</a>.},
+  slides={https://indico.cern.ch/event/1288979/contributions/5655979/attachments/2757247/4800881/QTML2023_final_no_animations.pdf},
+  dcat=preprint
+}
+
+@article{npvy2023qac0,
+  title={On the Pauli Spectrum of QAC<sup>0</sup>},
+  author={Nadimpalli*, Shivam and Parham*, Natalie and Vasconcelos*, Francisca and Yuen*, Henry},
+  abstract={The circuit class QAC<sup>0</sup> was introduced by Moore (1999) as a model for constant depth quantum circuits where the gate set includes many-qubit Toffoli gates. Proving lower bounds against such circuits is a longstanding challenge in quantum circuit complexity; in particular, showing that polynomial-size QAC<sup>0</sup> cannot compute the parity function has remained an open question for over 20 years. In this work, we identify a notion of the <i>Pauli spectrum</i> of QAC<sup>0</sup> circuits, which can be viewed as the quantum analogue of the Fourier spectrum of classical AC<sup>0</sup> circuits. We conjecture that the Pauli spectrum of $\mathsf{QAC}^0$ circuits satisfies <i>low-degree concentration</i>, in analogy to the famous Linial, Nisan, Mansour theorem on the low-degree Fourier concentration of AC<sup>0</sup> circuits. If true, this conjecture immediately implies that polynomial-size QAC<sup>0</sup> circuits cannot compute parity. We prove this conjecture for the class of depth-$d$, polynomial-size QAC<sup>0</sup> circuits with at most n^{O(1/d)} auxiliary qubits. We obtain new circuit lower bounds and learning results as applications:  this class of circuits cannot correctly compute: (1) the $n$-bit parity function on more than $(1/2 + 2^(-\Omega(n<sup>1/d</sup>)))$-fraction of inputs, and (2) the $n$-bit majority function on more than $(1 - 1/poly(n))$-fraction of inputs. Additionally we show that this class of QAC<sup>0</sup> circuits with limited auxiliary qubits can be learned with quasipolynomial sample complexity, giving the first learning result for QAC<sup>0</sup> circuits. More broadly, our results add evidence that ``Pauli-analytic'' techniques can be a powerful tool in studying quantum circuits.},
+  arxiv={2311.09631},
+  selected={true},
+  bibtex_show={true},
+  year={2023},
+  preview={qac0.png},
+  note={&#11088; Accepted as a talk at <a href="https://qip2024.tw/site/page.aspx?pid=901&sid=1522&lang=en">QIP 2024 (Taiwan)</a>.},
+  dcat=preprint
+}
+
+
 @article{vasconcelos2023qed,
   title={Why Quantum Education?},
   author={Vasconcelos, Francisca},
@@ -15,7 +43,6 @@
   pdf={https://spie.org/documents/Newsroom/Photonics%20Focus/PhoFo_May-June23.pdf},
   preview={spie_qed.jpg},
   bibtex_show={true},
-  selected={true},
   issn={2706-8110},
   dcat=article
 }
@@ -23,7 +50,7 @@
 @article{vasconcelos2023uinr,
   abbr={TMLR},
   title={Uncerta{INR}: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed Tomography},
-  author={Vasconcelos, Francisca and He, Bobby and Singh, Nalini and Teh, Yee Whye},
+  author={Vasconcelos*, Francisca and He*, Bobby and Singh, Nalini and Teh, Yee Whye},
   journal={Transactions on Machine Learning Research (TMLR)},
   issn={2835-8856},
   year={2023},
@@ -60,7 +87,6 @@
   html={https://www.nature.com/articles/s41586-020-2619-8},
   arxiv={2001.09190},
   altmetric={91951655},
-  selected={true},
   bibtex_show={true},
   preview={cosmic.jpg},
   note={&#11088; Featured in <a href="https://news.mit.edu/2020/cosmic-rays-limit-quantum-computing-0826">MIT News</a>},
@@ -84,7 +110,6 @@
   altmetric={74634709},
   publisher={American Association for the Advancement of Science},
   bibtex_show={true},
-  selected={true},
   preview={gen_photon.jpg},
   note={&#11088; Featured in <a href="https://news.mit.edu/2020/generating-photons-communication-quantum-computing-system-1007">MIT News</a>},
   dcat=journal
@@ -104,7 +129,7 @@
   proceedings={https://mtlsites.mit.edu/sites/mtlstatic/files/attachments/marc2019proceedings.v1.pdf},
   poster={MARCposter.pdf},
   bibtex_show={true},
-  note={&#127891; MIT Undergraduate EECS SuperUROP Thesis<br>&#127942; Top-10 Presentation, Top Student Presentation (Photos)},
+  note={&#127891; MIT Undergraduate EECS SuperUROP Thesis<br>&#127942; MARC Conference Top-10 Presentation, Top Student Presentation},
   dcat=conference
 }
 
@@ -141,6 +166,7 @@
   html={https://ieeexplore.ieee.org/abstract/document/7477660},
   url={https://ieeexplore.ieee.org/abstract/document/7477660},
   pdf={http://www.svcl.ucsd.edu/projects/dronefollow/2016IEEEWACVPersonFollowingUAVs.pdf},
+  talk={https://www.youtube.com/watch?v=fOFrXrRGFOc},
   bibtex_show={true},
   note={&#127942; Intel ISEF 2015: “Robotics & Intelligent Machines” 4th Place Grand Award},
   dcat=conference
@@ -151,6 +177,19 @@
   title   = {Uncertainty in Implicit Neural Representations for Medical Imaging},
   school  = {University of Oxford},
   year    = {2021},
+  month   = {September},
+  bibtex_show={true},
+  preview = {oxford_stats.png},
+  pdf={FranciscaVasconcelosMScStatistics.pdf},
+  note ={Submitted in completion of an MSc in Statistical Sciences.},
+  dcat=thesis
+}
+
+@mastersthesis{vasconcelos2022thesis,
+  author  = {Vasconcelos, Francisca},
+  title   = {Uncertainty in Implicit Neural Representations for Medical Imaging},
+  school  = {University of Oxford},
+  year    = {2022},
   month   = {September},
   bibtex_show={true},
   preview = {oxford_stats.png},
