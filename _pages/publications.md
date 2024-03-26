@@ -3,8 +3,8 @@ layout: page
 permalink: /publications/
 title: publications
 description: Publications by categories in reversed chronological order. * denotes equal contribution or alphabetical ordering.
-years: [2023, 2022, 2021, 2020, 2019, 2016] 
-display_categories: [preprint, journal, conference, article, thesis]
+years: [2024, 2023, 2022, 2021, 2020, 2019, 2016] 
+display_categories: [preprint, conference, journal, article, thesis]
 nav: true
 nav_order: 1
 ---
