@@ -1,30 +1,36 @@
 ---
 ---
-@article{vasconcelos2024learning,
+@inproceedings{vasconcelos2025learning,
   title={Learning shallow quantum circuits with many-qubit gates},
   author={Vasconcelos, Francisca and Huang, Hsin-Yuan},
   abstract={We present the first computationally-efficient algorithm for average-case learning of shallow quantum circuits with many-qubit gates. Specifically, we provide a quasi-polynomial time and sample complexity algorithm for learning unknown QAC0 circuits -- constant-depth circuits with arbitrary single-qubit gates and polynomially many CZ gates of unbounded width -- up to inverse-polynomially small error. Furthermore, we show that the learned unitary can be efficiently synthesized in poly-logarithmic depth. This work expands the family of efficiently learnable quantum circuits, notably since in finite-dimensional circuit geometries, QAC0 circuits require polynomial depth to implement.},
   arxiv={2410.16693},
+  booktitle = {38th Annual Conference on Learning Theory (<b>COLT</b>)},
+  organization={ACM},
   selected={true},
   bibtex_show={true},
-  preview={learn_shallow.webp},
-  year={2024},
+  preview={learn_shallow.png},
+  year={2025},
   note={&#11088; Talk at <a href="https://qtml2024.org/"><i><b>QTML</b> 2024</i> (Melbourne)</a>.},
-  dcat=preprint
+  dcat=conference
 }
 
-@article{vasconcelos2023qzsg,
+@article{vasconcelos2025qzsg,
   title={A Quadratic Speedup in Finding Nash Equilibria of Quantum Zero-Sum Games},
   author={Vasconcelos*, Francisca and Vlatakis-Gkaragkounis*, Emmanouil-Vasileios and Mertikopoulos, Panayotis and Piliouras, Giorgios and Jordan, Michael I.},
   abstract={Recent developments in domains such as non-local games, quantum interactive proofs, and quantum generative adversarial networks have renewed interest in quantum game theory and, specifically, quantum zero-sum games. Central to classical game theory is the efficient algorithmic computation of Nash equilibria, which represent optimal strategies for both players. In 2008, Jain and Watrous proposed the first classical algorithm for computing equilibria in quantum zero-sum games using the Matrix Multiplicative Weight Updates (MMWU) method to achieve a convergence rate of $O(d/\epsilon<sup>2</sup>)$ iterations to $\epsilon$-Nash equilibria in the $4<sup>d</sup>$-dimensional spectraplex. In this work, we propose a hierarchy of quantum optimization algorithms that generalize MMWU via an extra-gradient mechanism. Notably, within this proposed hierarchy, we introduce the Optimistic Matrix Multiplicative Weights Update (OMMWU) algorithm and establish its average-iterate convergence complexity as $O(d/\epsilon)$ iterations to $\epsilon$-Nash equilibria. This quadratic speed-up relative to Jain and Watrous' original algorithm sets a new benchmark for computing $\epsilon$-Nash equilibria in quantum zero-sum games.},
   arxiv={2311.10859},
+  journal={Quantum Journal},
   selected={true},
   bibtex_show={true},
   preview={qzsg.png},
-  year={2023},
-  note={&#11088; Long talk at <a href="https://qtml-2023.web.cern.ch/"><i><b>QTML</b> 2023</i> (CERN)</a>.},
+  year={2025},
+  note={&#11088; Long talk at <a href="https://qtml-2023.web.cern.ch/"><i><b>QTML</b> 2023</i> (CERN)</a>.<br><small> I also presented at: Surfing the Ocean ERC Seminar.</small>},
   slides={https://indico.cern.ch/event/1288979/contributions/5655979/attachments/2757247/4800881/QTML2023_final_no_animations.pdf},
-  dcat=preprint
+  html = {https://quantum-journal.org/papers/q-2025-05-06-1737/},
+  talk={https://www.youtube.com/watch?v=lw0JTF7ngKk},
+  code={https://github.com/FranciscaVasconcelos/qzsg},
+  dcat=journal
 }
 
 @inproceedings{npvy2023qac0,
@@ -38,6 +44,7 @@
   organization={ACM},
   year={2024},
   preview={qac0.png},
+  html={https://dl.acm.org/doi/10.1145/3618260.3649662},
   talk={https://www.youtube.com/watch?v=mpRpJJORAaY},
   slides={https://drive.google.com/file/d/1yr76pM9K-M4mhOVDDHAuef6k58VucwaE/view?usp=sharing},
   note={&#11088; Talk at <a href="https://qip2024.tw/site/page.aspx?pid=901&sid=1522&lang=en"><i><b>QIP</b> 2024</i> (Taiwan)</a><br><small> I also presented at: Simons Quantum Pod, Berkeley CS Theory Lunch, CWI QuSoft Seminar.</small>},
