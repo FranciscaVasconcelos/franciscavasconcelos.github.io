@@ -25,6 +25,8 @@ My research interests broadly span quantum computation and machine learning theo
 
 <p>I am also the Founding Academic Director of the <a href="https://www.qubitbyqubit.org/" rel="external nofollow noopener" target="_blank">Qubit x Qubit (QxQ)</a> initiative of <a href="https://the-cs.org/" rel="external nofollow noopener" target="_blank">The Coding School (TCS)</a> non-profit. Since 2019, we have taught 20,000+ diverse K-12 students, undergraduates, and members of the workforce worldwide about the fundamentals of quantum computing and QISE.</p>
 
+<p>Beyond academics, I played for the <a href="https://www.ouafc.co.uk/"> Oxford University Associated Football Club (OUAFC)</a> Women's Blues team in 2020-22 and received the <a href="https://www.sport.ox.ac.uk/blues-awards">Blues sporting award</a> (2022). In 2024, I played for the <a href="https://portugallacrosse.com/about-us">Portuguese national team</a> in the <a href="https://www.diariodominho.pt/noticias/desporto/2024-07-08-portugal-no-grupo-de-noruega-chequia-austria-e-irlanda-no-europeu-de-lacrosse-668c047e0c604">Women's European  Lacrosse Championship (WELC)</a>.</p>
+
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
