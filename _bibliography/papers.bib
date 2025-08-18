@@ -1,21 +1,34 @@
 ---
 ---
+@article{foxman2025random,
+  title={Random Unitaries in Constant (Quantum) Time},
+  author={Foxman*, Ben and Parham*, Natalie and Vasconcelos*, Francisca and Yuen*, Henry},
+  abstract={Random unitaries are a central object of study in quantum information, with applications to quantum computation, quantum many-body physics, and quantum cryptography. Recent work has constructed unitary designs and pseudorandom unitaries (PRUs) using $\Theta(\log \log n)$-depth unitary circuits with two-qubit gates. In this work, we show that unitary designs and PRUs can be efficiently constructed in several well-studied models of \emph{constant-time} quantum computation (i.e., the time complexity on the quantum computer is independent of the system size). These models are constant-depth circuits augmented with certain nonlocal operations, such as (a) many-qubit \texttt{TOFFOLI} gates, (b) many-qubit \texttt{FANOUT} gates, or (c) mid-circuit measurements with classical feedforward control. Recent advances in quantum computing hardware suggest experimental feasibility of these models in the near future. Our results demonstrate that unitary designs and PRUs can be constructed in much weaker circuit models than previously thought. Furthermore, our construction of PRUs in constant-depth with many-qubit \texttt{TOFFOLI} gates shows that, under cryptographic assumptions, there is no polynomial-time learning algorithm for the circuit class $\QAC^0$.\ Finally, our results suggest a new approach towards proving that \texttt{PARITY} is not computable in $\QAC^0$, a long-standing question in quantum complexity theory.},
+  year={2025},
+  arxiv={2508.11487},
+  selected={true},
+  bibtex_show={true},
+  preview={randomness_crop.png},
+  dcat=preprint
+}
+
 @article{vasconcelos2025methods,
   title={Methods for Reducing Ancilla-Overhead in Block Encodings},
-  author={Vasconcelos, Francisca and Gilyen, Andras},
+  author={Vasconcelos*, Francisca and Gilyen, Andras},
   abstract={Block encodings are a fundamental primitive in quantum algorithms, but can often have large ancilla overhead. In this work, we introduce novel techniques for reducing this overhead in two distinct ways. In Part I, we prove the existence of a "space-time tradeoff" by deriving an algorithm that, for any block encoding, approximately uncomputes all but one of its ancilla (freeing up those ancillae for reuse in later parts of a quantum algorithm). In Part II, we evaluate the minimum number of ancillae required to perform coherent multiplication of block encodings. We prove that logarithmic ancillae is optimal for exact multiplication of block encodings. However, in certain block encoding regimes, we show that approximate multiplication of block encodings can be achieved to high-precision with just one ancilla.},
   year={2025},
   arxiv={2507.07900},
   selected={true},
   bibtex_show={true},
   preview={ancilla_uncompute.png},
+  slides={https://drive.google.com/file/d/1hra27FIG9aaTspz2J_PmdNV_ioXEo6Ib/view?usp=drive_link},
   note={&#11088; Talk at <a href="https://qsimconference.org/"><i><b>QSim</b> 2025</i> (New York City)</a><br>&#11088; Talk at <a href="https://qtml2024.org/"><i><b>QTML</b> 2024</i> (Melbourne)</a>.},
   dcat=preprint
 }
 
 @inproceedings{vasconcelos2025learning,
   title={Learning shallow quantum circuits with many-qubit gates},
-  author={Vasconcelos, Francisca and Huang, Hsin-Yuan},
+  author={Vasconcelos*, Francisca and Huang, Hsin-Yuan},
   abstract={We present the first computationally-efficient algorithm for average-case learning of shallow quantum circuits with many-qubit gates. Specifically, we provide a quasi-polynomial time and sample complexity algorithm for learning unknown QAC0 circuits -- constant-depth circuits with arbitrary single-qubit gates and polynomially many CZ gates of unbounded width -- up to inverse-polynomially small error. Furthermore, we show that the learned unitary can be efficiently synthesized in poly-logarithmic depth. This work expands the family of efficiently learnable quantum circuits, notably since in finite-dimensional circuit geometries, QAC0 circuits require polynomial depth to implement.},
   arxiv={2410.16693},
   booktitle = {38th Annual Conference on Learning Theory (<b>COLT</b>)},
@@ -24,6 +37,7 @@
   bibtex_show={true},
   preview={learn_shallow.png},
   year={2025},
+  slides={https://drive.google.com/file/d/19NEkd2mdPatlgnxDv5M7kE66JBaUtLD2/view?usp=drive_link},
   note={&#11088; Talk at <a href="https://qtml2024.org/"><i><b>QTML</b> 2024</i> (Melbourne)</a>.},
   dcat=conference
 }
@@ -100,7 +114,7 @@
   talk={https://youtu.be/cD7Wx4F_EjQ},
   slides={https://docs.google.com/presentation/d/1p8BiarRbX4bCV1jdgrylJrAEPtLS27StNtSvQcf4C0s/edit?usp=sharing},
   arxiv={2202.10847},
-  selected={true},
+  selected={false},
   bibtex_show={true},
   preview={uncertainr.png},
   note={&#127891; Oxford MSc in Statistical Sciences Thesis<br><small>Early version of work (<a href="http://www.cse.cuhk.edu.hk/~qdou/public/medneurips2021/56_medneurips_abstract.pdf">Abstract</a>) also presented at NeurIPS 2021 workshops: <br><a href="https://sites.google.com/view/med-neurips-2021/home?authuser=0">Med-NeurIPS</a> (<a href="https://slideslive.com/38972085">Oral</a> - <font color="#2698BA">6.66% Acceptance Rate</font>) \& <a href="http://bayesiandeeplearning.org/">Bayesian Deep Learning</a> (<a href="https://drive.google.com/file/d/1EPx-C90lYmj4xWtx4hL4K6yKo6Qwb1Ez/view?usp=drive_link">Poster</a>)</small>},
