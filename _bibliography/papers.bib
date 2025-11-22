@@ -1,20 +1,23 @@
 ---
 ---
-@article{foxman2025random,
+@inproceedings{foxman2025random,
   title={Random Unitaries in Constant (Quantum) Time},
   author={Foxman*, Ben and Parham*, Natalie and Vasconcelos*, Francisca and Yuen*, Henry},
   abstract={Random unitaries are a central object of study in quantum information, with applications to quantum computation, quantum many-body physics, and quantum cryptography. Recent work has constructed unitary designs and pseudorandom unitaries (PRUs) using $\Theta(\log \log n)$-depth unitary circuits with two-qubit gates. In this work, we show that unitary designs and PRUs can be efficiently constructed in several well-studied models of \emph{constant-time} quantum computation (i.e., the time complexity on the quantum computer is independent of the system size). These models are constant-depth circuits augmented with certain nonlocal operations, such as (a) many-qubit \texttt{TOFFOLI} gates, (b) many-qubit \texttt{FANOUT} gates, or (c) mid-circuit measurements with classical feedforward control. Recent advances in quantum computing hardware suggest experimental feasibility of these models in the near future. Our results demonstrate that unitary designs and PRUs can be constructed in much weaker circuit models than previously thought. Furthermore, our construction of PRUs in constant-depth with many-qubit \texttt{TOFFOLI} gates shows that, under cryptographic assumptions, there is no polynomial-time learning algorithm for the circuit class $\QAC^0$.\ Finally, our results suggest a new approach towards proving that \texttt{PARITY} is not computable in $\QAC^0$, a long-standing question in quantum complexity theory.},
-  year={2025},
+  year={2026},
+  booktitle = {17th Annual Innovations in Theoretical Computer Science (<b>ITCS</b>)},
+  organization={LIPIcs},
   arxiv={2508.11487},
   selected={true},
   bibtex_show={true},
   preview={randomness_crop.png},
-  dcat=preprint
+  note={&#11088; Talk at <a href="https://qip2026.lu.lv/"><i><b>QIP</b> 2026</i> (Latvia)</a>.},
+  dcat=conference
 }
 
 @article{vasconcelos2025methods,
   title={Methods for Reducing Ancilla-Overhead in Block Encodings},
-  author={Vasconcelos, Francisca and Gilyen, Andras},
+  author={Vasconcelos, Francisca and Gilyén, András},
   abstract={Block encodings are a fundamental primitive in quantum algorithms, but can often have large ancilla overhead. In this work, we introduce novel techniques for reducing this overhead in two distinct ways. In Part I, we prove the existence of a "space-time tradeoff" by deriving an algorithm that, for any block encoding, approximately uncomputes all but one of its ancilla (freeing up those ancillae for reuse in later parts of a quantum algorithm). In Part II, we evaluate the minimum number of ancillae required to perform coherent multiplication of block encodings. We prove that logarithmic ancillae is optimal for exact multiplication of block encodings. However, in certain block encoding regimes, we show that approximate multiplication of block encodings can be achieved to high-precision with just one ancilla.},
   year={2025},
   arxiv={2507.07900},

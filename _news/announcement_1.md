@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-04-03 15:59:00-0400
+date: 2025-10-20 10:55:00
 inline: true
 related_posts: false
 ---
 
-I finally made a new PhD website! It is currently under progress and will be built out in the months to come...
+I gave an invited talk about my research on QAC<sup>0</sup> at the <a href="https://www.ias.edu/video/classical-quantum-circuit-complexity-tale-qac0">Institute for Advanced Studies Computer Science and Discrete Math Seminar</a>. 

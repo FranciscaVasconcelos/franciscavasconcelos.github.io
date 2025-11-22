@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2025-12-12 10:55:00
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I will be giving an invited talk about my research on QAC<sup>0</sup> at the <a href="https://qcow.cs.ox.ac.uk/">1st Quantum Cambridge-Oxford-Warwick Colloquium on Low-Depth Complexity</a>.
