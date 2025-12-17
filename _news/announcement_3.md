@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I will be giving an invited talk about my work on QAC<sup>0</sup> at the <a href="https://qcow.cs.ox.ac.uk/">1st Quantum Cambridge-Oxford-Warwick Colloquium on Low-Depth Complexity</a>.
+I gave an invited talk offering an overview of recent results on QAC<sup>0</sup> at the <a href="https://qcow.cs.ox.ac.uk/">1st Quantum Cambridge-Oxford-Warwick Colloquium on Quantum Low-Depth Complexity</a>. [<a href="https://drive.google.com/file/d/13jSMb3tlqiEVJErwWi9LtJCLEkm8-n6j/view?usp=sharing">Slides</a>]
