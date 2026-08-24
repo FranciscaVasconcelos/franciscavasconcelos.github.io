@@ -1,0 +1,11 @@
+{% assign href = include.url %}
+{% assign label = include.label %}
+{% assign is_absolute = false %}
+{% assign is_mail = false %}
+{% if href contains '://' %}
+  {% assign is_absolute = true %}
+{% endif %}
+{% if href contains 'mailto:' %}
+  {% assign is_mail = true %}
+{% endif %}
+<a href="{% if is_absolute or is_mail %}{{ href }}{% else %}{{ href | relative_url }}{% endif %}"{% if is_absolute %} target="_blank" rel="noreferrer"{% endif %}>{{ label }}</a>

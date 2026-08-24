@@ -1,0 +1,97 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+---
+
+{% assign category_order = "preprint|conference|journal|article|thesis" | split: "|" %}
+{% assign pubs_by_date = site.data.publications | sort: "sort_date" | reverse %}
+
+<header class="page-header">
+  <h1>Publications</h1>
+  <p>Publications can be viewed by type or in reverse chronological order. An asterisk (*) denotes equal contribution and/or alphabetical author ordering, as applicable.</p>
+</header>
+
+<div class="publication-toolbar" aria-label="Publication sorting controls">
+  <div>
+    <p class="section-label">View</p>
+    <p class="pub-count">{{ site.data.publications | size }} publications and writings</p>
+  </div>
+  <div class="sort-controls" role="group" aria-label="Sort publications">
+    <button class="sort-button active" type="button" data-pub-view-button="category" aria-pressed="true" aria-controls="publications-by-category">by category</button>
+    <button class="sort-button" type="button" data-pub-view-button="date" aria-pressed="false" aria-controls="publications-by-date">by date</button>
+  </div>
+</div>
+
+<div id="publications-by-category" class="pub-view" data-pub-view="category">
+{% for category in category_order %}
+{% assign pubs = site.data.publications | where: "category", category %}
+{% if pubs.size > 0 %}
+{% capture category_label %}{% case category %}{% when "preprint" %}Preprints{% when "conference" %}Conference papers{% when "journal" %}Journal articles{% when "article" %}Articles + essays{% when "thesis" %}Theses{% else %}{{ category }}{% endcase %}{% endcapture %}
+  <section class="section-block publication-section" id="{{ category }}">
+    <p class="section-label">{{ category_label | strip }}</p>
+    <div class="pub-list">
+{% for pub in pubs %}
+{% include publication.html pub=pub %}
+{% endfor %}
+    </div>
+  </section>
+{% endif %}
+{% endfor %}
+</div>
+
+<div id="publications-by-date" class="pub-view" data-pub-view="date" hidden>
+  <section class="section-block publication-section" id="date">
+    <p class="section-label">Reverse chronological</p>
+    <div class="pub-list">
+{% for pub in pubs_by_date %}
+{% include publication.html pub=pub %}
+{% endfor %}
+    </div>
+  </section>
+</div>
+
+<script>
+  (function () {
+    var validViews = { category: true, date: true };
+    var storageKey = "francisca-publication-view";
+    var views = Array.prototype.slice.call(document.querySelectorAll("[data-pub-view]"));
+    var buttons = Array.prototype.slice.call(document.querySelectorAll("[data-pub-view-button]"));
+
+    function initialView() {
+      var hash = window.location.hash.replace("#", "");
+      if (validViews[hash]) return hash;
+      try {
+        var saved = window.localStorage.getItem(storageKey);
+        if (validViews[saved]) return saved;
+      } catch (error) {}
+      return "category";
+    }
+
+    function setView(view, updateHash) {
+      if (!validViews[view]) view = "category";
+      views.forEach(function (section) {
+        section.hidden = section.getAttribute("data-pub-view") !== view;
+      });
+      buttons.forEach(function (button) {
+        var active = button.getAttribute("data-pub-view-button") === view;
+        button.classList.toggle("active", active);
+        button.setAttribute("aria-pressed", active ? "true" : "false");
+      });
+      try {
+        window.localStorage.setItem(storageKey, view);
+      } catch (error) {}
+      if (updateHash && window.history && window.history.replaceState) {
+        window.history.replaceState(null, "", "#" + view);
+      }
+    }
+
+    buttons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        setView(button.getAttribute("data-pub-view-button"), true);
+      });
+    });
+
+    setView(initialView(), false);
+  })();
+</script>

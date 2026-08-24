@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://franciscavasconcelos.github.io/sitemap.xml

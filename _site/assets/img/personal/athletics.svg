@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-label="Athletics placeholder">
+  <rect width="900" height="675" fill="#f2eadf"/>
+  <path d="M0 520C140 430 230 520 360 455s230-180 540-92v312H0z" fill="#eadbd0"/>
+  <circle cx="680" cy="155" r="78" fill="#f3ded8" stroke="#a84b3c" stroke-width="9"/>
+  <path d="M625 155h110M680 100v110M642 108c55 52 55 78 0 94M718 108c-55 52-55 78 0 94" fill="none" stroke="#a84b3c" stroke-width="7" stroke-linecap="round"/>
+  <path d="M175 490c85-145 170-224 260-236 77-10 155 24 236 102" fill="none" stroke="#26221e" stroke-width="12" stroke-linecap="round"/>
+  <path d="M195 504l-54 69M655 368l65 82" stroke="#26221e" stroke-width="12" stroke-linecap="round"/>
+  <path d="M293 372c80-35 152-31 216 12" fill="none" stroke="#a84b3c" stroke-width="9" stroke-linecap="round"/>
+  <text x="64" y="110" font-family="ui-sans-serif, system-ui, sans-serif" font-size="45" fill="#26221e" font-weight="700">athletics</text>
+</svg>

@@ -1,0 +1,308 @@
+- title: Constant-Depth Unitary Preparation of Dicke States
+  authors: Malvika Raj Joshi* and <strong>Francisca Vasconcelos*</strong>
+  author_links:
+  - name: Malvika Raj Joshi
+    url: https://malvika2147.github.io/
+  venue: Preprint
+  year: 2026
+  sort_date: '2026-01-15'
+  category: preprint
+  selected: true
+  image: /assets/img/publications/dicke_state.png
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2601.10693
+- title: Methods for Reducing Ancilla-Overhead in Block Encodings
+  authors: <strong>Francisca Vasconcelos</strong> and András Gilyén
+  author_links:
+  - name: András Gilyén
+    url: https://gilyen.hu/
+  venue: Preprint
+  year: 2025
+  sort_date: '2025-07-01'
+  category: preprint
+  selected: true
+  image: /assets/img/publications/ancilla_uncompute.png
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2507.07900
+  presentations:
+  - name: QSim 2025
+    url: https://qsim2025.qsimconference.org/
+  - name: QTML 2024
+    url: https://qtml2024.org/
+- title: Improved Lower Bounds for QAC<sup>0</sup>
+  authors: Malvika Raj Joshi*, Avishay Tal*, <strong>Francisca Vasconcelos*</strong>, and John Wright*
+  author_links:
+  - name: Malvika Raj Joshi
+    url: https://malvika2147.github.io/
+  - name: Avishay Tal
+    url: https://www.avishaytal.org/
+  - name: John Wright
+    url: https://people.eecs.berkeley.edu/~jswright/
+  venue: 58th Annual ACM Symposium on Theory of Computing (STOC)
+  year: 2026
+  sort_date: '2026-06-01'
+  category: conference
+  selected: true
+  image: /assets/img/publications/qac0_and_ac0.jpg
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2512.14643
+  - label: Proceedings
+    url: https://dl.acm.org/doi/10.1145/3798129.3800922
+- title: Random Unitaries in Constant (Quantum) Time
+  authors: Ben Foxman*, Natalie Parham*, <strong>Francisca Vasconcelos*</strong>, and Henry Yuen*
+  author_links:
+  - name: Ben Foxman
+    url: https://benfoxman.github.io/
+  - name: Natalie Parham
+    url: https://www.natalieparham.com/
+  - name: Henry Yuen
+    url: https://www.henryyuen.net/
+  venue: 17th Annual Innovations in Theoretical Computer Science (ITCS)
+  year: 2026
+  sort_date: '2026-01-01'
+  category: conference
+  selected: true
+  image: /assets/img/publications/randomness_crop.png
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2508.11487
+  - label: Proceedings
+    url: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.ITCS.2026.61
+  presentations:
+  - name: QIP 2026
+    url: https://qip2026.lu.lv/
+- title: Learning shallow quantum circuits with many-qubit gates
+  authors: <strong>Francisca Vasconcelos</strong> and Hsin-Yuan Huang
+  author_links:
+  - name: Hsin-Yuan Huang
+    url: https://hsinyuan-huang.github.io/
+  venue: 38th Annual Conference on Learning Theory (COLT)
+  year: 2025
+  sort_date: '2025-06-01'
+  category: conference
+  selected: true
+  image: /assets/img/publications/learn_shallow.png
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2410.16693
+  - label: Proceedings
+    url: https://proceedings.mlr.press/v291/vasconcelos25a.html
+  presentations:
+  - name: QTML 2024
+    url: https://qtml2024.org/
+- title: On the Pauli Spectrum of QAC<sup>0</sup>
+  authors: Shivam Nadimpalli*, Natalie Parham*, <strong>Francisca Vasconcelos*</strong>, and Henry Yuen*
+  author_links:
+  - name: Shivam Nadimpalli
+    url: https://math.mit.edu/~shivamn/
+  - name: Natalie Parham
+    url: https://www.natalieparham.com/
+  - name: Henry Yuen
+    url: https://www.henryyuen.net/
+  venue: 56th Annual ACM Symposium on Theory of Computing (STOC)
+  year: 2024
+  sort_date: '2024-06-01'
+  category: conference
+  selected: true
+  image: /assets/img/publications/qac0.png
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2311.09631
+  - label: Proceedings
+    url: https://dl.acm.org/doi/10.1145/3618260.3649662
+  presentations:
+  - name: QIP 2024
+    url: https://qip.iaqi.org/2024/
+- title: Extending Quantum State Tomography for Superconducting Quantum Processors
+  authors: <strong>Francisca Vasconcelos</strong>, Morten Kjaergaard, Tim Menke, Simon Gustavsson, Terry P. Orlando, and William D. Oliver
+  venue: Microsystems Annual Research Conference
+  year: 2019
+  sort_date: '2019-05-01'
+  category: conference
+  selected: false
+  image: /assets/img/publications/tomography.png
+  thesis:
+  - name: MIT Undergraduate EECS SuperUROP
+  awards:
+  - name: MARC Conference Top-10 Presentation
+  - name: MARC Conference Top Student Presentation
+  links:
+  - label: Proceedings
+    url: https://mtlsites.mit.edu/mtlexpo/marc2019/
+  author_links:
+  - name: Morten Kjaergaard
+    url: https://researchprofiles.ku.dk/en/persons/morten-kjaergaard/
+  - name: Tim Menke
+    url: https://scholar.google.com/citations?hl=en&user=rrCNrZoAAAAJ
+  - name: Simon Gustavsson
+    url: https://equs.mit.edu/simon-gustavsson/
+  - name: Terry P. Orlando
+    url: https://equs.mit.edu/terry-p-orlando/
+  - name: William D. Oliver
+    url: https://equs.mit.edu/william-d-oliver/
+- title: Person-Following UAVs
+  authors: <strong>Francisca Vasconcelos</strong> and Nuno Vasconcelos
+  venue: IEEE Winter Conference on Applications of Computer Vision (WACV)
+  year: 2016
+  sort_date: '2016-03-01'
+  category: conference
+  selected: false
+  image: /assets/img/publications/drone.png
+  awards:
+  - name: Intel ISEF 2015 Robotics & Intelligent Machines 4th Place Grand Award
+  links:
+  - label: Proceedings
+    url: https://doi.org/10.1109/WACV.2016.7477660
+  author_links:
+  - name: Nuno Vasconcelos
+    url: https://www.svcl.ucsd.edu/people/nuno/
+- title: A Quadratic Speedup in Finding Nash Equilibria of Quantum Zero-Sum Games
+  authors: <strong>Francisca Vasconcelos*</strong>, Emmanouil-Vasileios Vlatakis-Gkaragkounis*, Panayotis Mertikopoulos, Georgios Piliouras, and Michael I. Jordan
+  author_links:
+  - name: Emmanouil-Vasileios Vlatakis-Gkaragkounis
+    url: https://pages.cs.wisc.edu/~vlatakis/
+  - name: Panayotis Mertikopoulos
+    url: https://polaris.imag.fr/panayotis.mertikopoulos/home.html
+  - name: Georgios Piliouras
+    url: https://georgiospiliouras.com/
+  - name: Michael I. Jordan
+    url: https://people.eecs.berkeley.edu/~jordan/
+  venue: Quantum Journal
+  year: 2025
+  sort_date: '2025-05-06'
+  category: journal
+  selected: true
+  image: /assets/img/publications/qzsg.png
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2311.10859
+  - label: Proceedings
+    url: https://quantum-journal.org/papers/q-2025-05-06-1737/
+  - label: Code
+    url: https://github.com/FranciscaVasconcelos/qzsg
+  presentations:
+  - name: QTML 2023 (Long Talk)
+    url: https://qtml-2023.web.cern.ch/
+- title: 'UncertaINR: Uncertainty Quantification of End-to-End Implicit Neural Representations for Computed Tomography'
+  authors: <strong>Francisca Vasconcelos*</strong>, Bobby He*, Nalini Singh, and Yee Whye Teh
+  author_links:
+  - name: Bobby He
+    url: https://bobby-he.github.io/
+  - name: Nalini Singh
+    url: https://nalinimsingh.com/
+  - name: Yee Whye Teh
+    url: https://www.stats.ox.ac.uk/~teh/
+  venue: Transactions on Machine Learning Research (TMLR)
+  year: 2023
+  sort_date: '2023-01-01'
+  category: journal
+  selected: false
+  image: /assets/img/publications/uncertainr.png
+  thesis:
+  - name: Oxford MSc in Statistical Sciences
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2202.10847
+  - label: Proceedings
+    url: https://openreview.net/forum?id=jdGMBgYvfX
+- title: Impact of ionizing radiation on superconducting qubit coherence
+  authors: Antti P. Vepsäläinen, Amir H. Karamlou, John L. Orrell, Akshunna S. Dogra, Ben Loer, <strong>Francisca Vasconcelos</strong>, and others
+  venue: Nature
+  year: 2020
+  sort_date: '2020-08-01'
+  category: journal
+  selected: false
+  image: /assets/img/publications/cosmic.jpg
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2001.09190
+  - label: Proceedings
+    url: https://www.nature.com/articles/s41586-020-2619-8
+  author_links:
+  - name: Antti P. Vepsäläinen
+    url: https://scholar.google.com/citations?hl=en&user=QKspWZoAAAAJ
+  - name: Amir H. Karamlou
+    url: https://scholar.google.com/citations?hl=en&user=7kVO1ZUAAAAJ
+  - name: John L. Orrell
+    url: https://www.johnorrell.net/
+  - name: Akshunna S. Dogra
+    url: https://iaifi.github.io/current-fellows.html
+  - name: Ben Loer
+    url: https://www.pnnl.gov/people/ben-loer
+  featured:
+  - name: MIT News
+    url: https://news.mit.edu/2020/cosmic-rays-limit-quantum-computing-0826
+- title: Generating spatially entangled itinerant photons with waveguide quantum electrodynamics
+  authors: Bharath Kannan, Daniel L. Campbell, <strong>Francisca Vasconcelos</strong>, Roni Winik, David K. Kim, Morten Kjaergaard, and others
+  venue: Science Advances
+  year: 2020
+  sort_date: '2020-10-01'
+  category: journal
+  selected: false
+  image: /assets/img/publications/gen_photon.jpg
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2003.07300
+  - label: Proceedings
+    url: https://www.science.org/doi/10.1126/sciadv.abb8780
+  author_links:
+  - name: Bharath Kannan
+    url: https://scholar.google.com/citations?hl=en&user=2C8A4OEAAAAJ
+  - name: Daniel L. Campbell
+    url: https://scholar.google.com/citations?hl=en&user=9-NyCvUAAAAJ
+  - name: Roni Winik
+    url: https://equs.mit.edu/roni-winik/
+  - name: David K. Kim
+    url: https://tlo.mit.edu/industry-entrepreneurs/researchers/david-kim
+  - name: Morten Kjaergaard
+    url: https://researchprofiles.ku.dk/en/persons/morten-kjaergaard/
+  featured:
+  - name: MIT News
+    url: https://news.mit.edu/2020/generating-photons-communication-quantum-computing-system-1007
+- title: Why Quantum Education?
+  authors: <strong>Francisca Vasconcelos</strong>
+  venue: SPIE Photonics Focus
+  year: 2023
+  sort_date: '2023-05-01'
+  category: article
+  selected: false
+  image: /assets/img/publications/spie_qed.jpg
+  links:
+  - label: Article
+    url: https://spie.org/news/photonics-focus/mayjune-2023/teaching-about-quantum-science
+- title: 'Quantum Computing @ MIT: The Past, Present, and Future of the Second Revolution in Computing'
+  authors: <strong>Francisca Vasconcelos</strong>
+  venue: MIT Undergraduate Research Journal
+  year: 2019
+  sort_date: '2019-12-01'
+  category: article
+  selected: false
+  image: /assets/img/publications/murj_cover.png
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2002.05559
+- title: Essays in the Philosophy of Physics, Science, Metaphysics, and Epistemology
+  authors: <strong>Francisca Vasconcelos</strong>
+  venue: University of Oxford
+  year: 2022
+  sort_date: '2022-06-01'
+  category: thesis
+  selected: false
+  image: /assets/img/publications/oxford_philosophy.png
+  thesis:
+  - name: MSt in Philosophy of Physics
+  links: []
+- title: Uncertainty in Implicit Neural Representations for Medical Imaging
+  authors: <strong>Francisca Vasconcelos</strong>
+  venue: University of Oxford
+  year: 2021
+  sort_date: '2021-09-01'
+  category: thesis
+  selected: false
+  image: /assets/img/publications/oxford_stats.png
+  thesis:
+  - name: MSc in Statistical Sciences
+  links: []

@@ -1,0 +1,26 @@
+{% assign fellowships = include.items | default: site.data.fellowships %}
+{% if fellowships and fellowships.size > 0 %}
+<section class="section-block fellowships-section">
+  <div class="section-heading-row">
+    <div>
+      <h2>Major Fellowships</h2>
+    </div>
+  </div>
+  <div class="fellowship-strip" aria-label="Major Fellowships">
+    {% for fellowship in fellowships %}
+      {% if fellowship.url %}
+        <a class="fellowship-pill" href="{{ fellowship.url }}" target="_blank" rel="noopener">
+      {% else %}
+        <div class="fellowship-pill">
+      {% endif %}
+          <span>{{ fellowship.name }}</span>
+          {% if fellowship.year %}<time>{{ fellowship.year }}</time>{% endif %}
+      {% if fellowship.url %}
+        </a>
+      {% else %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

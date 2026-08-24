@@ -1,0 +1,22 @@
+- date: '2026-02-25'
+  text: 'Malvika Joshi and I gave a joint overview talk about shallow-depth quantum circuit complexity at the <a href="https://theory.cs.berkeley.edu/" target="_blank" rel="noopener">UC Berkeley Theory Lunch Seminar</a>.'
+  links:
+  - label: Slides
+    url: https://drive.google.com/file/d/1YuR59PG6wFgoh7uvdzPAZhzQRBrMqefz/view?usp=sharing
+- date: '2025-12-12'
+  text: 'I gave an invited talk offering an overview of recent results on QAC<sup>0</sup> at the <a href="https://qcow.cs.ox.ac.uk/" target="_blank" rel="noopener">1st Quantum Cambridge–Oxford–Warwick Colloquium on Quantum Low-Depth Complexity</a>.'
+  links:
+  - label: Slides
+    url: https://drive.google.com/file/d/13jSMb3tlqiEVJErwWi9LtJCLEkm8-n6j/view?usp=sharing
+- date: '2025-10-29'
+  text: 'I gave an invited talk about my work on QAC<sup>0</sup> at the <a href="https://aims-quantum-learning-and-testing.github.io/" target="_blank" rel="noopener">1st AIMS Workshop on Theory of Quantum Learning Algorithms</a>.'
+  links:
+  - label: Slides
+    url: https://drive.google.com/file/d/1ajPvAhGbICAW66jLSW3-XQH6VNJMlAZL/view?usp=drive_link
+- date: '2025-10-20'
+  text: 'I gave an invited talk about my work on QAC<sup>0</sup> at the <a href="https://www.ias.edu/video/classical-quantum-circuit-complexity-tale-qac0" target="_blank" rel="noopener">IAS Computer Science and Discrete Math Seminar</a>.'
+  links:
+  - label: Video
+    url: https://www.youtube.com/watch?v=8fmjAcUjk_k
+  - label: Slides
+    url: https://drive.google.com/file/d/1sb57srtVoMd6i1xb8YvdegiqfkpAmcdc/view?usp=drive_link

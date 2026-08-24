@@ -1,0 +1,81 @@
+- group: Education & Research Experience
+  schools:
+  - name: UC Berkeley
+    url: https://www.berkeley.edu/
+    dates: 2022–Present
+    degree: PhD, Computer Science
+    labs:
+    - name: TCS Group and Simons Institute Quantum Pod
+      url: https://theory.cs.berkeley.edu/
+      pi: Umesh Vazirani
+    - name: Berkeley Artificial Intelligence Research Lab
+      url: https://bair.berkeley.edu/
+      pi: Michael I. Jordan
+  - name: University of Oxford
+    url: https://www.ox.ac.uk/
+    dates: 2020–2022
+    degree: MSc Statistical Science; MSt Philosophy of Physics
+    labs:
+    - name: OxCSML
+      url: https://csml.stats.ox.ac.uk/
+      pi: Yee Whye Teh
+  - name: MIT
+    url: https://www.mit.edu/
+    dates: 2016–2020
+    degree: BS, EECS + Physics
+    labs:
+    - name: Engineering Quantum Systems Group
+      url: https://equs.mit.edu/
+      pi: William Oliver
+    - name: Camera Culture Group
+      url: https://www.media.mit.edu/groups/camera-culture/overview/
+      pi: Ramesh Raskar
+    - name: NetMIT / CSAIL
+      url: https://netmit.csail.mit.edu/
+      pi: Dina Katabi
+- group: Industry Experience
+  items:
+  - name: Amazon Quantum
+    url: https://aws.amazon.com/quantum/
+    dates: 2026
+    role: Applied Science Intern
+  - name: Microsoft Research Quantum
+    url: https://www.microsoft.com/en-us/research/group/quantum/
+    dates: 2020
+    role: Research Intern
+  - name: Rigetti Computing
+    url: https://www.rigetti.com/
+    dates: 2019
+    role: Junior Quantum Engineering Intern
+  - name: NASA Jet Propulsion Laboratory
+    url: https://www.jpl.nasa.gov/
+    dates: 2017
+    role: Engineering Intern
+  - name: Sidus Solutions
+    url: https://www.sidus-solutions.com/
+    dates: 2015
+    role: Engineering Intern
+- group: Teaching Experience
+  items:
+  - name: UC Berkeley CS 191
+    dates: Fall 2026
+    role: Teaching Assistant
+    collaborators: 'Instructors: Birgitta Whaley & Umesh Vazirani'
+  - name: Qubit x Qubit Year-Long Introduction to Quantum Computing
+    url: https://www.qubitbyqubit.org/
+    dates: 2022–23
+    role: Lead Co-Instructor
+    collaborators: 'Taught with: Amir Karamlou'
+  - name: Qubit x Qubit Year-Long Introduction to Quantum Computing
+    url: https://www.qubitbyqubit.org/
+    dates: 2020–21
+    role: Lead Co-Instructor
+    collaborators: 'Taught with: Amir Karamlou'
+  - name: MIT 6.S089 · Introduction to Quantum Computing
+    dates: Jan 2020
+    role: Co-Instructor
+    collaborators: 'Taught with: Amir Karamlou & Megan Yamoah'
+  - name: MIT 6.S089 · Introduction to Quantum Computing
+    dates: Jan 2019
+    role: Teaching Assistant
+    collaborators: 'Instructor: Amir Karamlou'

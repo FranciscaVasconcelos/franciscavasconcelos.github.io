@@ -1,0 +1,85 @@
+{% assign pub = include.pub %}
+<article class="pub-card{% if include.compact %} pub-card-compact{% endif %}{% if pub.selected %} pub-card-selected{% endif %}">
+  {% if pub.image %}
+    <a class="pub-thumb" href="{{ pub.image | relative_url }}" aria-label="Open image for {{ pub.title | strip_html }}">
+      <img src="{{ pub.image | relative_url }}" alt="Preview image for {{ pub.title | strip_html }}" loading="lazy">
+    </a>
+  {% endif %}
+  <div class="pub-content">
+    <div class="pub-heading">
+      <h3>{{ pub.title }}</h3>
+      {% if pub.selected %}<span class="pill">selected</span>{% endif %}
+    </div>
+    {% assign authors_html = pub.authors %}
+    {% if pub.author_links and pub.author_links.size > 0 %}
+      {% for author_link in pub.author_links %}
+        {% capture author_anchor %}<a class="author-link" href="{{ author_link.url }}" target="_blank" rel="noopener">{{ author_link.name }}</a>{% endcapture %}
+        {% assign authors_html = authors_html | replace: author_link.name, author_anchor %}
+      {% endfor %}
+    {% endif %}
+    <p class="pub-authors">{{ authors_html }}</p>
+    <p class="pub-meta">
+      {% if pub.category == "preprint" %}
+        {{ pub.venue }}{% if pub.year %}, {{ pub.year }}{% endif %}
+      {% else %}
+        <span class="pub-venue-highlight">{{ pub.venue }}</span>{% if pub.year %}, {{ pub.year }}{% endif %}
+      {% endif %}
+    </p>
+    {% if pub.presentations and pub.presentations.size > 0 %}
+      <p class="pub-presentations pub-chip-row">
+        <span class="pub-chip-row-label">talks</span>
+        {% for presentation in pub.presentations %}
+          {% if presentation.url %}
+            <a class="pub-presentation-chip pub-mini-chip" href="{{ presentation.url }}" target="_blank" rel="noopener">{{ presentation.name }}</a>
+          {% else %}
+            <span class="pub-presentation-chip pub-mini-chip">{{ presentation.name }}</span>
+          {% endif %}
+        {% endfor %}
+      </p>
+    {% endif %}
+    {% if pub.featured and pub.featured.size > 0 %}
+      <p class="pub-featured pub-chip-row">
+        <span class="pub-chip-row-label">featured</span>
+        {% for feature in pub.featured %}
+          {% if feature.url %}
+            <a class="pub-featured-chip pub-mini-chip" href="{{ feature.url }}" target="_blank" rel="noopener">{{ feature.name }}</a>
+          {% else %}
+            <span class="pub-featured-chip pub-mini-chip">{{ feature.name }}</span>
+          {% endif %}
+        {% endfor %}
+      </p>
+    {% endif %}
+    {% if pub.thesis and pub.thesis.size > 0 %}
+      <p class="pub-thesis pub-chip-row">
+        <span class="pub-chip-row-label">thesis</span>
+        {% for thesis in pub.thesis %}
+          {% if thesis.url %}
+            <a class="pub-chip-text" href="{{ thesis.url }}" target="_blank" rel="noopener">{{ thesis.name }}</a>
+          {% else %}
+            <span class="pub-chip-text">{{ thesis.name }}</span>
+          {% endif %}
+        {% endfor %}
+      </p>
+    {% endif %}
+    {% if pub.awards and pub.awards.size > 0 %}
+      <p class="pub-awards pub-chip-row">
+        <span class="pub-chip-row-label">awards</span>
+        {% for award in pub.awards %}
+          {% if award.url %}
+            <a class="pub-chip-text" href="{{ award.url }}" target="_blank" rel="noopener">{{ award.name }}{% unless forloop.last %},{% endunless %}</a>
+          {% else %}
+            <span class="pub-chip-text">{{ award.name }}{% unless forloop.last %},{% endunless %}</span>
+          {% endif %}
+        {% endfor %}
+      </p>
+    {% endif %}
+    {% if pub.note %}<p class="pub-note">{{ pub.note }}</p>{% endif %}
+    {% if pub.links and pub.links.size > 0 %}
+      <div class="pub-links">
+        {% for link in pub.links %}
+          {% include link.html url=link.url label=link.label %}
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</article>

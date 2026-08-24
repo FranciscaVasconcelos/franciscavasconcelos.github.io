@@ -1,0 +1,10 @@
+# Compact homepage fellowship strip. Supported fields: name, url, year.
+- name: Paul & Daisy Soros Fellowship for New Americans
+  url: https://pdsoros.org/fellows/francisca-vasconcelos/
+  year: 2024–2026
+- name: NSF Graduate Research Fellowship
+  url: https://www.nsf.gov/funding/opportunities/grfp-nsf-graduate-research-fellowship-program
+  year: 2022–2025
+- name: Rhodes Scholarship
+  url: https://www.rhodeshouse.ox.ac.uk/scholarships/the-rhodes-scholarship/
+  year: 2020–2022

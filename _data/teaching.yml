@@ -1,0 +1,58 @@
+intro: Teaching and outreach have been central to my path in quantum computing. This page keeps the academic-facing teaching record separate from the shorter research bio on the home page.
+courses:
+- role: TCS Qubit x Qubit Intro to Quantum Computing Year-Long Course Instructor
+  institution: The Coding School Non-Profit
+  dates: AY 2020/21, AY 2022/23
+  bullets:
+  - Developed and instructed a global, virtual “Intro to Quantum Computing” course.
+  - Served 8,000+ students representing 120+ countries, with over 50% of students from underrepresented backgrounds.
+  - Designed the course for young students with only high-school geometry as prerequisite.
+  - 'Received strong student feedback: 99% would recommend the course, and 96% rated it good or excellent.'
+- role: MIT EECS Intro to Quantum Computing IAP Course Instructor
+  institution: MIT EECS · 6.s089 · Co-instructor with Amir Karamlou and Megan Yamoah
+  dates: Jan 2019, Jan 2020
+  bullets:
+  - Co-taught a four-week crash course on quantum computing open to the MIT community, with no quantum mechanics background required.
+  - Lectured on quantum algorithms and protocols including quantum key distribution, Grover search, QFT, and Shor’s algorithm.
+  - Developed QuTiP problem-set questions and ran tutorials on QuTiP and IBM Quantum Experience.
+outreach:
+- role: TCS Qubit x Qubit Founding Academic Program Director
+  institution: The Coding School Non-Profit
+  dates: June 2019 – Present
+  bullets:
+  - Founding member of The Coding School Qubit x Qubit initiative for K–12 quantum education.
+  - Created and co-lectured an 8,000+ student global high-school “Intro to Quantum Computing” course.
+  - Secured IBM quantum sponsorship and developed further teaching materials.
+- role: MIT SWE Technology Chair
+  institution: MIT Society of Women Engineers
+  dates: Nov 2016 – Nov 2019
+  bullets:
+  - Organized workshops to teach SWE members about technical topics including personal websites, LaTeX, and quantum computing.
+  - Volunteered at STEM education events for local elementary and high-school girls.
+- role: The Coding School Curriculum Developer, Teacher, and Advisory Board Member
+  institution: The Coding School Non-Profit
+  dates: June 2019 – May 2020
+  bullets:
+  - Revamped Python curriculum, taught a two-week course, and created a LaTeX template for the curriculum.
+  - Led development of a quantum computing curriculum that became part of the Qubit by Qubit initiative.
+- role: MIT Associate Academic Advisor
+  institution: Assistant to Prof. Dennis Freeman
+  dates: Sept 2017 – May 2018
+  bullets:
+  - Advised a group of freshmen on classes and navigating MIT.
+talks:
+- year: '2025'
+  title: Starting Your STEM Adventure
+  description: Invited talk for The Coding School’s end-of-summer student celebration in New York City.
+- year: '2024'
+  title: Into the Quantum World
+  description: Invited talk for Qubit by Qubit’s World Quantum Day.
+- year: '2023'
+  title: What we’ve learned from training 20,000 students in QISE
+  description: Invited speaker and panelist on the Quantum Workforce Development Panel at SPIE Photonics West.
+- year: '2021'
+  title: Lessons learned from teaching a year-long global, virtual intro to quantum computing course
+  description: Invited speaker at IEEE Quantum Week on K–12 quantum education.
+- year: '2016'
+  title: Limitless Possibility
+  description: Invited MIT Museum Girl’s Day talk about engineering and computer science projects.

@@ -1,0 +1,20 @@
+title: Francisca Vasconcelos
+description: Academic website for Francisca Vasconcelos
+url: https://franciscavasconcelos.github.io
+baseurl: ''
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+sass:
+  sass_dir: assets/css
+  style: compressed
+permalink: pretty
+exclude:
+- Gemfile
+- Gemfile.lock
+- README.md
+- vendor
+- node_modules
+- teaching.md
+- beyond.md

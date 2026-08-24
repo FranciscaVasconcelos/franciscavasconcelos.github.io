@@ -1,0 +1,25 @@
+name: Francisca Vasconcelos
+subtitle: 'CS PhD @ UC Berkeley · <a href="https://theory.cs.berkeley.edu/" target="_blank" rel="noopener">Theory Group</a> · <a href="https://bair.berkeley.edu/" target="_blank" rel="noopener">BAIR</a>'
+tagline: I am interested in the power and limits of quantum computation, with a focus on quantum circuit complexity and algorithms.
+email: francisca@berkeley.edu
+email_display: francisca [at] berkeley [dot] edu
+portrait: /assets/img/profile.jpg
+portrait_alt: Black-and-white portrait of Francisca Vasconcelos
+links:
+- label: Email
+  url: mailto:francisca@berkeley.edu
+- label: CV
+  url: /assets/pdf/francisca_cv.pdf
+- label: Google Scholar
+  url: https://scholar.google.com/citations?hl=en&user=J-bL83kAAAAJ
+- label: GitHub
+  url: https://github.com/FranciscaVasconcelos
+- label: LinkedIn
+  url: https://www.linkedin.com/in/franciscavasconcelos
+bio:
+- I am a fifth-year PhD student in the UC Berkeley Department of Electrical Engineering and Computer Science. My research has been supported by the <a href="https://www.nsfgrfp.org/">NSF Graduate Research Fellowship</a> and <a href="https://www.pdsoros.org/">Paul & Daisy Soros Fellowship for New Americans</a>. I am co-advised by Profs <a href="https://people.eecs.berkeley.edu/~jordan/">Michael Jordan</a> and <a href="https://people.eecs.berkeley.edu/~vazirani/">Umesh Vazirani</a>. My research interests broadly span quantum computation and machine learning theory.
+- Most of my PhD research has been focused on quantum circuit complexity (QAC<sup>0</sup> in particular) and quantum algorithms.
+- In 2020, I received a BS in EECS and Physics from MIT, where I was fortunate to do substantial undergraduate research advised by Prof <a href="https://equs.mit.edu/william-d-oliver/">William Oliver</a> in the <a href="https://equs.mit.edu/">MIT Engineering Quantum Systems</a> group. As an undergraduate, I also interned under Dr. <a href="https://marcusps.github.io/">Marcus da Silva</a> at Rigetti Computing and Microsoft Research Quantum.
+- 'Supported by a <a href="https://www.rhodeshouse.ox.ac.uk/scholarships/the-rhodes-scholarship/">Rhodes Scholarship</a>, I received two masters from the University of Oxford: an MSc in Statistical Sciences (2021) and MSt in Philosophy of Physics (2022). Following from the MSc, I performed statistical ML research in the <a href="https://csml.stats.ox.ac.uk/">OxCSML</a> group, advised by Prof <a href="https://www.stats.ox.ac.uk/~teh/">Yee Whye Teh</a>.'
+- I am also the Founding Academic Director of the <a href="https://www.qubitbyqubit.org/">Qubit x Qubit (QxQ)</a> initiative of <a href="https://the-cs.org/">The Coding School (TCS)</a> non-profit. Since 2019, we have taught 20,000+ diverse K-12 students, undergraduates, and members of the workforce worldwide about the fundamentals of quantum computing and QISE.
+- Beyond academics, I played for the <a href="https://www.ouafc.co.uk/">Oxford University Associated Football Club (OUAFC)</a> Women's Blues team in 2020-22 and received the <a href="https://www.sport.ox.ac.uk/blues-awards">Blues sporting award</a> (2022). In 2024, I played for the <a href="https://portugallacrosse.com/">Portuguese national team</a> in the <a href="https://www.diariodominho.pt/noticias/desporto/2024-07-08-portugal-no-grupo-de-noruega-chequia-austria-e-irlanda-no-europeu-de-lacrosse-668c047e0c604">Women's European Lacrosse Championship (WELC)</a>.

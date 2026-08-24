@@ -1,0 +1,72 @@
+{% assign affiliation_groups = include.groups | default: site.data.affiliations %}
+<section class="section-block affiliations-section">
+  <div class="section-heading-row">
+    <div>
+      <h2>Experience</h2>
+    </div>
+  </div>
+
+  <div class="affiliation-grid affiliation-grid-compact">
+    {% for group in affiliation_groups %}
+      <section class="affiliation-card affiliation-card-{{ group.group | slugify }}" aria-labelledby="affiliation-{{ forloop.index }}">
+        <h3 id="affiliation-{{ forloop.index }}">{{ group.group }}</h3>
+
+        {% if group.schools and group.schools.size > 0 %}
+          <ul class="affiliation-school-list">
+            {% for school in group.schools %}
+              <li class="affiliation-school">
+                <div class="affiliation-school-head">
+                  <p class="affiliation-main">
+                    {% if school.url %}
+                      <a href="{{ school.url }}" target="_blank" rel="noopener">{{ school.name }}</a>
+                    {% else %}
+                      {{ school.name }}
+                    {% endif %}
+                  </p>
+                  <time>{{ school.dates }}</time>
+                </div>
+                {% if school.degree %}<p class="affiliation-role">{{ school.degree }}</p>{% endif %}
+
+                {% if school.labs and school.labs.size > 0 %}
+                  <ul class="affiliation-labs">
+                    {% for lab in school.labs %}
+                      <li>
+                        {% if lab.url %}
+                          <a href="{{ lab.url }}" target="_blank" rel="noopener">{{ lab.name }}</a>
+                        {% else %}
+                          {{ lab.name }}
+                        {% endif %}
+                        {% if lab.pi %}<span class="affiliation-pi"> · {{ lab.pi }}</span>{% endif %}
+                      </li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+        {% if group.items and group.items.size > 0 %}
+          <ul class="affiliation-list">
+            {% for item in group.items %}
+              <li>
+                <time>{{ item.dates }}</time>
+                <div>
+                  <p class="affiliation-main">
+                    {% if item.url %}
+                      <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.name }}</a>
+                    {% else %}
+                      {{ item.name }}
+                    {% endif %}
+                  </p>
+                  {% if item.role %}<p class="affiliation-role">{{ item.role }}</p>{% endif %}
+                  {% if item.collaborators %}<p class="affiliation-collaborators">{{ item.collaborators }}</p>{% endif %}
+                </div>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </section>
+    {% endfor %}
+  </div>
+</section>

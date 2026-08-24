@@ -1,0 +1,26 @@
+intro: 'A quieter place for non-academic work: athletics, art, and notes from life outside research. Replace the placeholder SVGs with real photos by dropping files into assets/img/personal and editing _data/personal.yml.'
+sections:
+- title: Athletics
+  image: /assets/img/personal/athletics.svg
+  alt: Minimal line-art athletics placeholder
+  blurb: I played for the Oxford University Association Football Club Women’s Blues team in 2020–22 and received a Blues sporting award in 2022. In 2024, I played for the Portuguese national team in the Women’s European Lacrosse Championship.
+  tags:
+  - football
+  - lacrosse
+  - team sport
+- title: Art
+  image: /assets/img/personal/art.svg
+  alt: Minimal line-art art placeholder
+  blurb: A space for sketches, paintings, photography, and works in progress. Add short captions here as you collect images.
+  tags:
+  - sketchbook
+  - painting
+  - photography
+- title: Notes and essays
+  image: /assets/img/personal/notes.svg
+  alt: Minimal line-art notes placeholder
+  blurb: 'Optional space for non-technical writing: reflections on sport, travel, education, or creative process.'
+  tags:
+  - writing
+  - travel
+  - reflection

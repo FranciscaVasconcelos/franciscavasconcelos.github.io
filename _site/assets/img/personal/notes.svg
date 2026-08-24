@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 675" role="img" aria-label="Notes placeholder">
+  <rect width="900" height="675" fill="#f2eadf"/>
+  <rect x="210" y="110" width="480" height="455" rx="26" fill="#fffdf8" stroke="#e2d7cb" stroke-width="8"/>
+  <path d="M295 210h310M295 285h260M295 360h320M295 435h190" stroke="#a79b90" stroke-width="10" stroke-linecap="round"/>
+  <path d="M610 455l62 62 70-178-70-54z" fill="#f3ded8" stroke="#a84b3c" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M610 455l62 62" stroke="#a84b3c" stroke-width="9"/>
+  <text x="64" y="110" font-family="ui-sans-serif, system-ui, sans-serif" font-size="45" fill="#26221e" font-weight="700">notes</text>
+</svg>
