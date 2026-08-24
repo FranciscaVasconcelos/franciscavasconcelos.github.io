@@ -1,3 +1,8 @@
+- date: '2026-08-19'
+  text: 'I gave an invited talk at the <a href="https://www.random-quantum-circuits.com/" target="_blank" rel="noopener">2nd Workshop on Random Quantum Circuits</a> at the University of Cologne.'
+  links:
+  - label: Slides
+    url: https://drive.google.com/file/d/1EjzKUztQZeuViqxsk358R1IL4MB_xojQ/view?usp=sharing
 - date: '2026-02-25'
   text: 'Malvika Joshi and I gave a joint overview talk about shallow-depth quantum circuit complexity at the <a href="https://theory.cs.berkeley.edu/" target="_blank" rel="noopener">UC Berkeley Theory Lunch Seminar</a>.'
   links:
