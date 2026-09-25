@@ -57,7 +57,7 @@
     role: Engineering Intern
 - group: Teaching Experience
   items:
-  - name: UC Berkeley CS 191
+  - name: UC Berkeley CS 191A · Introduction to Quantum Computing
     dates: Fall 2026
     role: Teaching Assistant
     collaborators: 'Instructors: Birgitta Whaley & Umesh Vazirani'

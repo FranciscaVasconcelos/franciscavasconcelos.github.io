@@ -67,7 +67,9 @@ Add a new item to `_data/publications.yml`:
   venue: "Conference or journal"
   year: 2026
   sort_date: "2026-05-01"  # controls the reverse-chronological view
-  category: "conference"   # preprint, conference, journal, article, thesis
+  category: "conference"   # note, preprint, conference, journal, article, thesis
+  topic: "Quantum Algorithms" # QAC^0, Quantum Algorithms, Machine Learning,
+                              # Quantum Hardware, Philosophy, or Miscellaneous
   selected: true            # appears on the home page if true
   image: "/assets/img/publications/example.png"
   presentations:            # optional: talk/conference chips below the main venue
@@ -134,7 +136,7 @@ The design intentionally uses:
 - no theme gem;
 - no Bootstrap;
 - no external JavaScript;
-- a tiny inline script for switching the publications page between category and date views;
+- a tiny inline script for switching the publications page between category, date, and topic views;
 
 This should make the website easy to maintain for years without following upstream template changes.
 

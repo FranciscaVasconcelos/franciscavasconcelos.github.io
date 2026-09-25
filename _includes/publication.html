@@ -1,5 +1,5 @@
 {% assign pub = include.pub %}
-<article class="pub-card{% if include.compact %} pub-card-compact{% endif %}{% if pub.selected %} pub-card-selected{% endif %}">
+<article class="pub-card{% unless pub.image %} pub-card-no-image{% endunless %}{% if include.compact %} pub-card-compact{% endif %}{% if pub.selected %} pub-card-selected{% endif %}">
   {% if pub.image %}
     <a class="pub-thumb" href="{{ pub.image | relative_url }}" aria-label="Open image for {{ pub.title | strip_html }}">
       <img src="{{ pub.image | relative_url }}" alt="Preview image for {{ pub.title | strip_html }}" loading="lazy">
@@ -19,7 +19,7 @@
     {% endif %}
     <p class="pub-authors">{{ authors_html }}</p>
     <p class="pub-meta">
-      {% if pub.category == "preprint" %}
+      {% if pub.category == "preprint" or pub.category == "note" %}
         {{ pub.venue }}{% if pub.year %}, {{ pub.year }}{% endif %}
       {% else %}
         <span class="pub-venue-highlight">{{ pub.venue }}</span>{% if pub.year %}, {{ pub.year }}{% endif %}

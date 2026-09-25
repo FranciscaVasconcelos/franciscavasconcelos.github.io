@@ -1,3 +1,15 @@
+- title: 2-Fold Forrelation is in QAC<sup>0</sup>
+  authors: <strong>Francisca Vasconcelos</strong>
+  venue: Note
+  year: 2026
+  sort_date: '2026-09-07'
+  category: note
+  topic: QAC^0
+  selected: true
+  image: /assets/img/publications/forrelation.png
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2609.07060
 - title: Constant-Depth Unitary Preparation of Dicke States
   authors: Malvika Raj Joshi* and <strong>Francisca Vasconcelos*</strong>
   author_links:
@@ -7,6 +19,7 @@
   year: 2026
   sort_date: '2026-01-15'
   category: preprint
+  topic: Quantum Algorithms
   selected: true
   image: /assets/img/publications/dicke_state.png
   links:
@@ -21,6 +34,7 @@
   year: 2025
   sort_date: '2025-07-01'
   category: preprint
+  topic: Quantum Algorithms
   selected: true
   image: /assets/img/publications/ancilla_uncompute.png
   links:
@@ -44,6 +58,7 @@
   year: 2026
   sort_date: '2026-06-01'
   category: conference
+  topic: QAC^0
   selected: true
   image: /assets/img/publications/qac0_and_ac0.jpg
   links:
@@ -64,6 +79,7 @@
   year: 2026
   sort_date: '2026-01-01'
   category: conference
+  topic: QAC^0
   selected: true
   image: /assets/img/publications/randomness_crop.png
   links:
@@ -83,6 +99,7 @@
   year: 2025
   sort_date: '2025-06-01'
   category: conference
+  topic: Machine Learning
   selected: true
   image: /assets/img/publications/learn_shallow.png
   links:
@@ -106,6 +123,7 @@
   year: 2024
   sort_date: '2024-06-01'
   category: conference
+  topic: QAC^0
   selected: true
   image: /assets/img/publications/qac0.png
   links:
@@ -122,6 +140,7 @@
   year: 2019
   sort_date: '2019-05-01'
   category: conference
+  topic: Quantum Hardware
   selected: false
   image: /assets/img/publications/tomography.png
   thesis:
@@ -149,6 +168,7 @@
   year: 2016
   sort_date: '2016-03-01'
   category: conference
+  topic: Machine Learning
   selected: false
   image: /assets/img/publications/drone.png
   awards:
@@ -174,6 +194,7 @@
   year: 2025
   sort_date: '2025-05-06'
   category: journal
+  topic: Quantum Algorithms
   selected: true
   image: /assets/img/publications/qzsg.png
   links:
@@ -199,6 +220,7 @@
   year: 2023
   sort_date: '2023-01-01'
   category: journal
+  topic: Machine Learning
   selected: false
   image: /assets/img/publications/uncertainr.png
   thesis:
@@ -214,6 +236,7 @@
   year: 2020
   sort_date: '2020-08-01'
   category: journal
+  topic: Quantum Hardware
   selected: false
   image: /assets/img/publications/cosmic.jpg
   links:
@@ -241,6 +264,7 @@
   year: 2020
   sort_date: '2020-10-01'
   category: journal
+  topic: Quantum Hardware
   selected: false
   image: /assets/img/publications/gen_photon.jpg
   links:
@@ -268,6 +292,7 @@
   year: 2023
   sort_date: '2023-05-01'
   category: article
+  topic: Miscellaneous
   selected: false
   image: /assets/img/publications/spie_qed.jpg
   links:
@@ -279,6 +304,7 @@
   year: 2019
   sort_date: '2019-12-01'
   category: article
+  topic: Miscellaneous
   selected: false
   image: /assets/img/publications/murj_cover.png
   links:
@@ -290,6 +316,7 @@
   year: 2022
   sort_date: '2022-06-01'
   category: thesis
+  topic: Philosophy
   selected: false
   image: /assets/img/publications/oxford_philosophy.png
   thesis:
@@ -301,6 +328,7 @@
   year: 2021
   sort_date: '2021-09-01'
   category: thesis
+  topic: Machine Learning
   selected: false
   image: /assets/img/publications/oxford_stats.png
   thesis:
