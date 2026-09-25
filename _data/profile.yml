@@ -16,6 +16,8 @@ links:
   url: https://github.com/FranciscaVasconcelos
 - label: LinkedIn
   url: https://www.linkedin.com/in/franciscavasconcelos
+- label: Bluesky
+  url: https://bsky.app/profile/franvasco.bsky.social
 bio:
 - I am a fifth-year PhD student in the UC Berkeley Department of Electrical Engineering and Computer Science. My research has been supported by the <a href="https://www.nsfgrfp.org/">NSF Graduate Research Fellowship</a> and <a href="https://www.pdsoros.org/">Paul & Daisy Soros Fellowship for New Americans</a>. I am co-advised by Profs <a href="https://people.eecs.berkeley.edu/~jordan/">Michael Jordan</a> and <a href="https://people.eecs.berkeley.edu/~vazirani/">Umesh Vazirani</a>. My research interests broadly span quantum computation and machine learning theory.
 - Most of my PhD research has been focused on quantum circuit complexity (QAC<sup>0</sup> in particular) and quantum algorithms.
