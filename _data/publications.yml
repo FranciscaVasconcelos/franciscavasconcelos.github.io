@@ -1,3 +1,34 @@
+- title: 'Solving Sparse SDPs in Sublinear Time: A Classical Algorithm Inspired by the Quantum OR Lemma'
+  authors: Fernando G.S.L. Brandão*, Alexander M. Dalzell*, András Gilyén*, and <strong>Francisca Vasconcelos*</strong>
+  author_links:
+  - name: Fernando G.S.L. Brandão
+    url: https://iqim.caltech.edu/profile/fernando-brandao/
+  - name: Alexander M. Dalzell
+    url: https://www.directory.caltech.edu/personnel/adalzell
+  - name: András Gilyén
+    url: https://gilyen.hu/
+  venue: Preprint
+  year: 2026
+  sort_date: '2026-09-30'
+  category: preprint
+  topic: Quantum Algorithms
+  selected: true
+  image: /assets/img/publications/sdp_dequantize.png
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2609.40302
+- title: Depth-Optimal Quantum Compilation
+  authors: <strong>Francisca Vasconcelos</strong>
+  venue: Preprint
+  year: 2026
+  sort_date: '2026-09-28'
+  category: preprint
+  topic: QAC^0
+  selected: true
+  image: /assets/img/publications/depth-optimal-compilation.png
+  links:
+  - label: arXiv
+    url: https://arxiv.org/abs/2609.34659
 - title: 2-Fold Forrelation is in QAC<sup>0</sup>
   authors: <strong>Francisca Vasconcelos</strong>
   venue: Note
@@ -5,7 +36,7 @@
   sort_date: '2026-09-07'
   category: note
   topic: QAC^0
-  selected: true
+  selected: false
   image: /assets/img/publications/forrelation.png
   links:
   - label: arXiv
