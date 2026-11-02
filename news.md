@@ -6,7 +6,7 @@ permalink: /news/
 
 <header class="page-header">
   <h1>News</h1>
-  <p>A lightweight timeline for talks, papers, teaching, and other updates.</p>
+  <p>Some exciting recent events and updates.</p>
 </header>
 
 <section class="panel page-panel">

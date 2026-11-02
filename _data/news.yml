@@ -1,3 +1,8 @@
+- date: '2026-10-22'
+  text: 'I gave an invited talk on QAC<sup>0</sup> and the recent OpenAI proof at the <a href="https://uwaterloo.ca/institute-for-quantum-computing/events/quantum-innovators-2026" target="_blank" rel="noopener">Quantum Innovators Conference</a> at the University of Waterloo.'
+  links:
+  - label: Slides
+    url: https://drive.google.com/file/d/11ufZp6Nz1zjDKKmiom-WqnYUp0ZFJ6mH/view?usp=drive_link
 - date: '2026-09-08'
   text: 'I gave an invited talk at the <a href="https://www.sfu.ca/~ndesilva/mfoqa/" target="_blank" rel="noopener">PIMS Workshop on Mathematical Foundations of Quantum Advantage</a> at Simon Fraser University in Vancouver.'
 - date: '2026-08-19'
