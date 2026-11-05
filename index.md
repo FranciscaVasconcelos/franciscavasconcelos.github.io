@@ -33,11 +33,11 @@ title: Home
   <div class="news-panel-slot">
     <aside class="panel sidebar-panel news-panel">
       <div class="section-heading-row">
-        <p class="section-label">Recent News</p>
+        <p class="section-label" id="recent-news-heading">Recent News</p>
         <a class="text-link" href="{{ '/news/' | relative_url }}">all news</a>
       </div>
-      <div class="news-scroll">
-        {% include news-list.html items=site.data.news limit=4 compact=true %}
+      <div class="news-scroll" role="region" aria-labelledby="recent-news-heading" tabindex="0">
+        {% include news-list.html items=site.data.news compact=true %}
       </div>
     </aside>
   </div>

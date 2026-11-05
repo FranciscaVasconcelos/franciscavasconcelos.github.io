@@ -1076,18 +1076,9 @@ code {
     max-width: 330px;
   }
 
-  .news-panel {
-    inset: auto;
-    height: auto;
-    max-height: none;
-    overflow: visible;
-    position: relative;
-  }
-
-  .news-scroll {
-    overflow: visible;
-    padding-right: 0;
-    margin-right: 0;
+  .two-column {
+    // Keep the stacked news box the same height as About.
+    grid-auto-rows: 1fr;
   }
 
   .site-main {

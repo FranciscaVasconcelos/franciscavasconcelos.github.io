@@ -1,3 +1,8 @@
+- date: '2026-11-05'
+  text: 'I gave an invited talk on my recent work on depth-optimal quantum compilation at the <a href="https://uwaterloo.ca/institute-for-quantum-computing/events/iqc-math-and-cs-seminar-featuring-francisca-vasconcelos" target="_blank" rel="noopener">UWaterloo IQC Math and TCS Seminar</a>.'
+  links:
+  - label: Slides
+    url: https://drive.google.com/file/d/1SuaZsWLbRA3V7_dPMO8Sos3K-wANTkbO/view?usp=drive_link
 - date: '2026-10-22'
   text: 'I gave an invited talk on QAC<sup>0</sup> and the recent OpenAI proof at the <a href="https://uwaterloo.ca/institute-for-quantum-computing/events/quantum-innovators-2026" target="_blank" rel="noopener">Quantum Innovators Conference</a> at the University of Waterloo.'
   links:
